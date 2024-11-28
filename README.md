@@ -5,14 +5,14 @@ which includes:
 * **Request Line**: Specifies the method, resource URL, and HTTP version (e.g., GET /index.html HTTP/1.1).
 * **Headers**: Provide additional information (e.g., Host, User-Agent, Accept).
 * **Body**: Optional, used mainly with methods like POST or PUT to send data.
----
+
 ## HTTP Response
 server to client
 which includes:
 * **Status Line**: Includes the HTTP version, status code, and reason phrase (e.g., HTTP/1.1 200 OK).
 * **Headers**: Provide metadata about the response (e.g., Content-Type, Content-Length, Set-Cookie).
 * **Body**: Contains the requested resource or data (e.g., HTML content, JSON data).
----
+
 ## HTTP Request Method
 1. GET
 When user types URL
