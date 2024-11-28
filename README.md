@@ -66,6 +66,7 @@ It is similar with `login.html`.
 When user click the submit button, client send requset with  
 method : POST  
 reqPath : /playlist
+
 2. Send response to client (against to client's requset)
 extract input information from request's body.  
 ```js
@@ -79,7 +80,8 @@ const newSong = {artist: artist, song: song};
 
 playlist.push(newSong);
 ```
-finally, send response.
+
+3. finally, send response.
 ```js
 const content = "<h1>Add song successful</h1>";
 const responseHeader = createHttpResponseHeader(
