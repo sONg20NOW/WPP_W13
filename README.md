@@ -24,6 +24,8 @@ When user input data
 <br><br><br>
    
   ---
+  <br><br><br>
+
 # SSR & CSR
 ## SSR (Server Side Rendering)
 In the server, totally rendering the HTML and send it to client(browser)
@@ -35,6 +37,8 @@ In the client, dynamically rendering the content using JS.
 <br><br><br>
    
   --- 
+  <br><br><br>
+
 # Exercise
 ## Todo:
 * Make /public/add-song.html.
