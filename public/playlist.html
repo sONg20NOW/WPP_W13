@@ -1,0 +1,34 @@
+<!-- CSR -->
+<html>
+    <head>
+        <script src="/jquery-3.7.1.min.js"></script>
+        <!-- JS -->
+        <script>
+            $(document).ready(function() {
+                $.ajax({
+                    url: '/api/playlist',
+                    type: 'GET',
+                    success: function(data) {
+                        var playlist = $('#playlist');
+                        console.log(data);
+                        $.each(data, (index, value) => {
+                            let content = '<li>';
+                            content += value.artist;
+                            content += ' - ';
+                            content += value.song;
+                            content += '</li>'
+                            playlist.append(content);    
+                        })
+                    }
+                })
+            })
+        </script>
+    </head>
+    <body>
+        <h1>Playlist</h1>
+        <ul id="playlist">
+            
+        </ul>
+        <a href="add-song.html">Add Song</a>
+    </body>
+</html>
