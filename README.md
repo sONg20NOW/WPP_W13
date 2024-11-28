@@ -5,8 +5,7 @@ which includes:
 * **Request Line**: Specifies the method, resource URL, and HTTP version (e.g., GET /index.html HTTP/1.1).
 * **Headers**: Provide additional information (e.g., Host, User-Agent, Accept).
 * **Body**: Optional, used mainly with methods like POST or PUT to send data.
-   
-   
+<br><br><br>
    
 ## HTTP Response
 server to client
@@ -14,8 +13,7 @@ which includes:
 * **Status Line**: Includes the HTTP version, status code, and reason phrase (e.g., HTTP/1.1 200 OK).
 * **Headers**: Provide metadata about the response (e.g., Content-Type, Content-Length, Set-Cookie).
 * **Body**: Contains the requested resource or data (e.g., HTML content, JSON data).
-   
-   
+<br><br><br>
    
 ## HTTP Request Method
 1. GET
@@ -23,21 +21,18 @@ When user types URL
 2. POST
 When user input data
 *contain input data to request body.*
-   
-   
+<br><br><br>
    
   ---
 # SSR & CSR
 ## SSR (Server Side Rendering)
 In the server, totally rendering the HTML and send it to client(browser)
-   
-   
+<br><br><br>
    
 ## CSR (Client Side Rendering)
 a.k.a. JSR (Javascript Rendering)
 In the client, dynamically rendering the content using JS.
-   
-   
+<br><br><br>
    
   --- 
 # Exercise
@@ -45,8 +40,7 @@ In the client, dynamically rendering the content using JS.
 * Make /public/add-song.html.
 * When artist and song is submitted, server store new data in DB.
 * Visit ‘localhost:3000/playlist’ to check the result
-   
-   
+<br><br><br>
    
 ## What I do:
 1. design `add-song.html`.
